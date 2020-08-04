@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:iconTint="@color/colorPrimary"/>
+    <item
+        android:id="@+id/ic_tantangan"
+        android:icon="@drawable/ic_assignment"
+        android:title="Challenge"
+        android:iconTint="@color/colorPrimary"/>
+    <item
+        android:id="@+id/ic_pemenang"
+        android:icon="@drawable/ic_giftcard"
+        android:title="Pemenang"
+        android:iconTint="@color/colorPrimary"/>
+    <item
+        android:id="@+id/ic_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"
+        android:iconTint="@color/colorPrimary"/>
+</menu>

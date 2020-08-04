@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ImgProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/sana" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TxtUserTicket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minatozaki_sana"
+                    android:textColor="@color/blakish"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TxtTglTicket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1_august_2020"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/BtnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/more_button"
+                android:src="@drawable/ic_more24"
+                android:tint="@color/blakish" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImgTicket"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="@string/ticket_picture"
+            android:src="@drawable/twice"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="20dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/TxtLikeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blakish"
+                android:text="@string/_9"
+                />
+            <ImageView
+                android:id="@+id/ImgLove"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_love"
+                android:tint="@color/greyish"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:id="@+id/TxtCommentCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blakish"
+                android:text="@string/_9"
+                android:layout_marginStart="10dp"
+                />
+            <ImageView
+                android:layout_marginStart="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_mode_comment_24"
+                android:tint="@color/blakish"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/TxtCerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/blakish"
+            android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua"/>
+    </LinearLayout>
+</RelativeLayout>
